@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign the guestbook</title>
+    <link rel="stylesheet" type="text/css" href="css/guestbook-style.css">
+</head>
+
+<body>
+    <div class="content-container">
+        <h1>Guest Information</h1>
+        <form class="myForm" action="guestbook-add.php" method="POST">
+            <div class="fields">
+                <label>Name:</label>
+                <input placeholder="Enter your Full Name" class="textInput" type="text" name="fullName">
+            </div>
+            <p>Please fill out this field</p>
+            <div class="fields">
+                <label>Email:</label>
+                <input placeholder="Enter your Email" class="textInput" type="email" name="email">
+            </div>
+            <p>Please fill out this field</p>
+            <div class="fields">
+                <label>Comment:</label>
+                <textarea placeholder="Enter your Comment" class="textInput" classname="comment" id="textareaInput" cols="30" rows="10"></textarea>
+            </div>
+            <div class="fields-checkbox">
+                <input type="checkbox" name="agree" id="agree">
+                <label>I agree on blabla</label>
+            </div>
+            <p class="checkboxP">Check the checkbox to continue.</p>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

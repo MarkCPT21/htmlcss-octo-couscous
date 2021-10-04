@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*making sure lang po*/
+}
+
+h1 {
+    font: bold 24px Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+
+p {
+    font: normal 12px Arial, Helvetica, sans-serif;
+    color: rgb(255, 95, 95);
+    margin-top: 5px;
+}
+
+.checkboxP {
+    padding-left: 20px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+}
+
+.content-container {
+    width: 80%;
+    margin: auto;
+}
+
+.myForm .fields label {
+    display: block;
+    margin-bottom: 5px;
+    font: normal 17px Arial, Helvetica, sans-serif;
+}
+
+.myForm .fields-checkbox {
+    display: inline;
+}
+
+.myForm .fields .textInput {
+    border-color: rgb(236, 81, 53);
+    border-width: 2px;
+    border-style: solid;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font: normal 15px Arial, Helvetica, sans-serif;
+}
+
+.myForm button {
+    background-color: rgb(71, 98, 255);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-color: white;
+}
